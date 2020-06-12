@@ -57,7 +57,9 @@ text-transform: uppercase;
     font-size:1.8rem;
     font-weight:bold;
 }
-
+.div2{
+  padding:0 30px;
+}
 .div2 input,textarea{
     width:100%;
     padding: 0.6em 3.8em;
@@ -86,6 +88,16 @@ textarea{
     resize:none
 }
 
+#background-img-header span {
+  position: absolute;
+  width: 100%;
+  bottom: 99px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color:#084482 ;
+  text-align: center;
+}
 input[type='submit']{
     color:white;
     background: #084482;

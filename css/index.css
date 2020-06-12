@@ -185,8 +185,20 @@ body{
 }
 
 .head_txt{
+  position:absolute;
   text-align: center;
-  margin-top: 26%;
+   border:1px solid red;
+  font-size: 40px;
+  font-weight: 300;
+  color: #084482;
+}
+.head_txt1{
+  position:absolute;
+  padding-top:60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  height: 90px;
   font-size: 40px;
   font-weight: 300;
   color: #084482;
@@ -297,4 +309,14 @@ body{
   .col-sm{
     margin-bottom: 50px;
   }
+}
+footer{
+  background-color:#295887;
+  padding-top: 0;
+}
+.text-color{
+  color:white;
+}
+.row-1{
+  background-color: sky-blue;
 }
