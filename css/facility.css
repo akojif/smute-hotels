@@ -8,19 +8,6 @@ a{
 }
 
 
-.big-header{
-    text-align: center;
-    padding: 40px 0px;
-    width: 100vw;
-}
-
-.header-text{
-  font-family: Lato;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
-  padding-top: 34px;
-}
 
 nav{
   top:95px;
@@ -104,14 +91,7 @@ h4{
   color:#084482;
 }
 
-.footer{
-	width: 100vw;
-	height: 300px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #001326;
-}
+
 
 #email{
   margin-right: 10px;
