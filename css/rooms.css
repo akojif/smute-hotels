@@ -16,12 +16,6 @@ body {
   background-size: cover;
 }
 
-.gray-overlay {
-  /* add dark element over header image */
-  height: 100%;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.7);
-}
 
 #background-img-header span {
   position: absolute;
@@ -31,7 +25,7 @@ body {
   font-size: 40px;
   line-height: 48px;
 
-  color: #151515;
+  color:#084482 ;
   text-align: center;
 }
 
@@ -194,3 +188,10 @@ footer {
   min-height: 350px !important;
 }
 /* additional footer end */
+.head_txt{
+  text-align: center;
+  margin-top: 26%;
+  font-size: 40px;
+  font-weight: 300;
+  color: #084482;
+}

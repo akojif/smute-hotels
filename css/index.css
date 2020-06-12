@@ -16,7 +16,7 @@ body{
 
 
 .section-1{
-  background-image:url(assets/images/header-section.jpg);
+  background: url(assets/images/header-section.jpg);
   top: 0;
   width: 100%;
   z-index: -9999;
@@ -189,7 +189,7 @@ body{
   margin-top: 26%;
   font-size: 40px;
   font-weight: 300;
-  color: #ffffff;
+  color: #084482;
 }
 
 .sec2-head{
