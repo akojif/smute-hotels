@@ -17,7 +17,7 @@ Smute Hotel is a responsive hotel website template.
 
 # Font
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon)
+- Family: [Sans-serif](https://fonts.google.com/specimen/Sans-serif?query=mon)
 - Weights: 300, 400, 600
 
 # Icons
