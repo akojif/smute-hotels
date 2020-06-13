@@ -11,6 +11,10 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+      <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
     </head>
 <body>
   <div class="section-1" style="background-image:url('assets/images/header-section.jpg');background-repeat: no-repeat;
@@ -22,7 +26,7 @@
     </div>
   </div>
 
-  <header class="header">
+  <header class="header fixed-top">
     <a href="" class="logo"><img src="./assets/images/resized-smute-logo.png" alt="pic"></a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -95,98 +99,74 @@
     <img src="./assets/images/Rectangle 38.png" alt="">
   </div>
 </div>
-  <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row row-1">
-
-      <!-- Grid column -->
-      <div class="col-md-12 mt-md-0 mt-12">
+    <!-- Footer -->
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
         <form class="form-inline">
           <div class="form-group">
-            <label id="email" class="text-color">Enter your email address to get the best deals</label>
-            <input type="text" placeholder="Enter your email address" name="" class="form-control" id="email">
-            <input class="btn-lg" type="button" value="Subscribe" style="background: #012346">
+            <label for="email" style="font-size: 20px; padding-right: 10px">Enter your email address to get the best deals</label>
+            <input type="email" class="form-control" id="email" placeholder="email@example.com">
           </div>
-          <a class="fb-ic">
-                  <i class="fab fa-facebook-f white-text mr-4 text-color"> </i>
-              </a>
-              <a class="fb-ic">
-                      <i class="fab fa-twitter white-text mr-4 text-color"> </i>
-                  </a>
-                  <a class="fb-ic">
-                          <i class="fab fa-google-plus-g white-text mr-4 text-color"> </i>
-                      </a>
-                      <a class="fb-ic">
-                              <i class="fab fa-linkedin-in white-text mr-4 text-color"> </i>
-                          </a>
-        </form>
-        <br><br>
-        <!-- Content -->
-
-      </div>
-
-      </div>
-      <div class="row">
-      <!-- Grid column -->
-
-
-
-      <div class="col-md-3 mb-md-0 mb-3">
-        <a class="navbar-brand footer-image" href="#">
-            <div class="logo-style">
-              <img src="./assets/images/resized-smute-logo.png" alt="logo text" id="logo-text">
-            </div>
+          <div class="form-group">
+            <button type="submit" class="btn mb-2 footer-copyright" style="background: #012346">Subscribe</button>
+          </div>
+           <a class="fb-ic footer-copyright">
+                <i class="fab fa-facebook-f footer-copyright mr-4 mb-3" style="padding-left: 200px"> </i>
           </a>
-
-
-  </div>
-      <div class="col-md-3 mb-md-0 mb-3">
-
-    <!-- Links -->
-
-
-    <ul class="list-unstyled">
-      <li>
-      <p class="text-color"> <i class="material-icons">place</i>54, Harvey Road, Yaba, Lagos,Nigeria</p>
-      </li>
-      <li>
-        <p class="text-color"><i class="fas fa-phone mr-3 text-color"></i>+234804323432, +2349030599375, +2348078484370</p>
-      </li>
-      <li>
-          <p class="text-color"><i class="fas fa-envelope mr-3 text-color"></i> info@example.com</p>
-      </li>
-    </ul>
-
-  </div>
-        <!-- Links -->
-
-          <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase text-color">COMPANY</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-color">Terms & Condition</a>
-          </li>
-          <li>
-            <a href="#!" class="text-color">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="#!" class="text-color">Job Opening</a>
-          </li>
-        </ul>
+          <a class="fb-ic">
+              <i class="fab fa-twitter footer-copyright mr-4 mb-3" > </i>
+          </a>
+          <a class="fb-ic">
+                <i class="fab fa-linkedin-in footer-copyright  mr-4 mb-3"> </i>
+            </a>
+      </form>
 
       </div>
+    </div>
+  </div>
+  <div class="grid-x grid-container">
+  <div class="cell large-1 medium-6 small-12">
+ 
+    <div>
+        <img src="./assets/images/resized-smute-logo.png" alt="logo" style="padding-top: 100px">
+    </div>  
+  </div>
+  <div class="cell large-5 medium-6 small-12">
+    <div class="pl-60"  style="padding-top: 50px">
+    <ul class="list-unstyled">
+        <li>
+        <p class="text-color"> <i class="material-icons ">place</i>54, Harvey Road, Yaba, Lagos,Nigeria</p>
+        </li>
+        <li>
+          <p class="text-color"><i class="fas fa-phone mr-3 text-color"></i>+234804323432, +2349030599375, +2348078484370</p>
+        </li>
+        <li>
+            <p class="text-color"><i class="fas fa-envelope mr-3 text-color"></i> info@example.com</p>
+        </li>
+    </ul>
+  </div>
+  </div>
+  <div class="cell large-3 medium-6 small-12">
+    <div class="pl-60" style="padding-top: 50px">
+     <h5 class="text-uppercase text-color">COMPANY</h5>
 
-      <div class="col-md-3 mb-md-0 mb-3">
-
-    <!-- Links -->
+      <ul class="list-unstyled">
+        <li>
+          <a href="#!" class="text-color">Terms & Condition</a>
+        </li>
+        <li>
+          <a href="#!" class="text-color">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#!" class="text-color">Job Opening</a>
+        </li>
+      </ul>
+  </div>
+  </div>
+  <div class="cell large-3 medium-6 small-12">
+    <div class="pl-60" style="padding-top: 50px">
     <h5 class="text-uppercase text-color">HOT CLICKS</h5>
 
     <ul class="list-unstyled">
@@ -200,28 +180,18 @@
         <a href="#!" class="text-color">Our Vision</a>
       </li>
     </ul>
-
+  </div>
+  </div>
   </div>
 
-
-
-    </div>
-    <!-- Grid row -->
-
+  <div class=" footer-copyright text-center" style="padding-top: 15px;">
+      Copyright &copy; 2020 info@example.com.  All rights reserved.
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3 text-color">© 2020 Copyright
-  </div>
-  <!-- Copyright -->
-
 </footer>
-<!-- Footer -->
-</body>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
 
 </html>
